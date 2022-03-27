@@ -1,5 +1,5 @@
 
-  // 三个列表的初始定位
+  // 四个列表的初始定位
   function initPosition(startTranslateYHeight) {
     firstImagesList.style.transform = `translateY(${startTranslateYHeight+136*3}px)`;
     secondsImagesList.style.transform = `translateY(${startTranslateYHeight+136*2}px)`;
@@ -31,7 +31,13 @@
   function stopShake() {
     document.getElementsByClassName('machine')[0].classList.remove('shake');
   }
+  function result(){
+    
+  }
 
+  function print(){
+
+  }
  
   // startTranslateYHeight 列表的初始化时translateY的距离
   // imageHeight列表的每一项的高度
@@ -71,10 +77,16 @@
       timeout5 = setTimeout(() => {
         stopShake();
       },2800)
-      // 游戏结束后打印结果
+      // 游戏结束后打印结果 
+      var result = initImagesArr[radom1]+initImagesArr[radom2]+initImagesArr[radom3]+initImagesArr[radom4];
+
       timeout4 = setTimeout(() => {
-        console.log(initImagesArr[radom1],initImagesArr[radom2],initImagesArr[radom3],initImagesArr[radom4]);
+        console.log(result);
+        alert(result)
       },3000)
+      //alert (result)
+
+
       // 重置游戏
     }else {
       // 取消上一次未执行完的方法
@@ -92,6 +104,7 @@
   }
 
   // 初始的选项列表
+  
   let initImagesArr = ["以", "物", "思", "理"];
   let imagesArr = ["以", "物", "思", "理"];
   // 加长整个选项列表,虚假滚动
