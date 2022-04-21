@@ -1,172 +1,178 @@
 .machine {
-  width: 484px;
-  height: 513px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    width: 484px;
+    height: 513px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0.5;
 }
 
 .machine .machine-body {
-  width: 400px;
-  background-color: #f7e81f;
-  height: 513px;
-  border: 14px solid #2e2a27;
-  border-radius: 34px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    width: 400px;
+    background-color: #f7e81f;
+    height: 513px;
+    border: 14px solid #2e2a27;
+    border-radius: 34px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .machine .machine-body .rotary-table {
-  width: 278px;
-  border: 16px solid #2e2a27;
-  border-radius: 16px;
-  margin: 54px auto 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    width: 278px;
+    border: 16px solid #2e2a27;
+    border-radius: 16px;
+    margin: 54px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .machine .machine-body .rotary-table .screen {
-  width: 82px;
-  height: 136px;
-  overflow: hidden;
+    width: 82px;
+    height: 136px;
+    overflow: hidden;
 }
 
 .machine .machine-body .rotary-table .screen .images {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .machine .machine-body .rotary-table .screen .images li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  text-align: center;
-  height: 136px;
-  line-height: 136px;
-  font-size: 30px;
-  background-color: wheat;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    height: 136px;
+    line-height: 136px;
+    font-size: 30px;
+    color: #f85910;
+    background-color: wheat;
 }
 
 .machine .machine-body .rotary-table .screen .transtion {
-  -webkit-transition: all ease 2s;
-  transition: all ease 2s;
+    -webkit-transition: all ease 2s;
+    transition: all ease 2s;
 }
 
 .machine .machine-body .rotary-table :nth-child(1) {
-  border-right: 16px solid #2e2a27;
+    border-right: 16px solid #2e2a27;
 }
 
 .machine .machine-body .rotary-table :nth-child(2) {
-  border-right: 16px solid #2e2a27;
+    border-right: 16px solid #2e2a27;
 }
+
 .machine .machine-body .rotary-table :nth-child(3) {
-  border-right: 16px solid #2e2a27;
+    border-right: 16px solid #2e2a27;
 }
+
 .machine .machine-body .machine-logo {
-  width: 240px;
-  margin: 20px auto 0;
+    width: 240px;
+    margin: 20px auto 0;
 }
 
 .machine .machine-body .machine-logo img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .machine .base {
-  width: 34px;
-  height: 130px;
-  background-color: #eeeb3a;
-  border: 14px solid #2e2a27;
-  border-left: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-top-right-radius: 24px;
-  border-bottom-right-radius: 24px;
-  -webkit-transform: translateY(250px);
-          transform: translateY(250px);
-  position: relative;
+    width: 34px;
+    height: 130px;
+    background-color: #eeeb3a;
+    border: 14px solid #2e2a27;
+    border-left: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    -webkit-transform: translateY(250px);
+    transform: translateY(250px);
+    position: relative;
 }
 
 .machine .base .handle {
-  width: 64px;
-  position: absolute;
-  left: 30px;
-  bottom: 28px;
-  cursor: pointer;
+    width: 64px;
+    position: absolute;
+    left: 30px;
+    bottom: 28px;
+    cursor: pointer;
 }
 
 .machine .base .handle .handle-ball {
-  width: 34px;
-  height: 34px;
-  background-color: #ff6169;
-  border-radius: 50%;
-  border: 15px solid #2e2a27;
-  -webkit-transform: translateY(2px);
-          transform: translateY(2px);
+    width: 34px;
+    height: 34px;
+    background-color: #ff6169;
+    border-radius: 50%;
+    border: 15px solid #2e2a27;
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
 }
 
 .machine .base .handle .handle-bar {
-  width: 16px;
-  height: 106px;
-  margin: 0 auto;
-  background-color: #2e2a27;
-  -webkit-transform: translateY(1px);
-          transform: translateY(1px);
+    width: 16px;
+    height: 106px;
+    margin: 0 auto;
+    background-color: #2e2a27;
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
 }
 
 .machine .base .handle .handle-shaft {
-  width: 56px;
-  height: 48px;
-  border: 15px solid #2e2a27;
-  border-left: none;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  background-color: #eeeb3a;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0 auto;
+    width: 56px;
+    height: 48px;
+    border: 15px solid #2e2a27;
+    border-left: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #eeeb3a;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .shake {
-  -webkit-animation: shake 0.1s infinite;
-          animation: shake 0.1s infinite;
+    -webkit-animation: shake 0.1s infinite;
+    animation: shake 0.1s infinite;
 }
 
 @-webkit-keyframes shake {
-  25% {
-    left: 49.7%;
-  }
-  50% {
-    top: 49.7%;
-  }
-  75% {
-    left: 50%;
-  }
-  100% {
-    top: 50%;
-  }
+    25% {
+        left: 49.7%;
+    }
+    50% {
+        top: 49.7%;
+    }
+    75% {
+        left: 50%;
+    }
+    100% {
+        top: 50%;
+    }
 }
 
 @keyframes shake {
-  25% {
-    left: 49.7%;
-  }
-  50% {
-    top: 49.7%;
-  }
-  75% {
-    left: 50%;
-  }
-  100% {
-    top: 50%;
-  }
+    25% {
+        left: 49.7%;
+    }
+    50% {
+        top: 49.7%;
+    }
+    75% {
+        left: 50%;
+    }
+    100% {
+        top: 50%;
+    }
 }
+
+
 /*# sourceMappingURL=scss.css.map */

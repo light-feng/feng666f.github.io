@@ -1,0 +1,126 @@
+.machine {
+    width: 484px;
+    height: 513px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    .machine-body {
+      width: 400px;
+      background-color: #c8d0e3;
+      height: 513px;
+      border: 14px solid #2e2a27;
+      border-radius: 34px;
+      box-sizing: border-box;
+      .rotary-table {
+        width: 278px;
+        border: 16px solid #2e2a27;
+        border-radius: 16px;
+        margin: 54px auto 0;
+        display: flex;
+        .screen {
+          width: 82px;
+          height: 136px;
+          overflow: hidden;
+          .images {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: none;
+            li {
+              margin: 0;
+              padding: 0;
+              border: 0;
+              text-align: center;
+              height: 136px;
+              line-height: 136px;
+              font-size: 30px;
+              background-color: wheat;
+            }
+          }
+          .transtion {
+            transition: all ease 2s;
+          }
+        }
+      }
+      .rotary-table :nth-child(1) {
+        border-right: 16px solid #2e2a27;
+      }
+      .rotary-table :nth-child(2) {
+        border-right: 16px solid #2e2a27;
+      }
+      .machine-logo {
+        width: 240px;
+        margin: 20px auto 0;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .base {
+      width: 34px;
+      height: 130px;
+      background-color: #b1b8d4;
+      border: 14px solid #2e2a27;
+      border-left: none;
+      box-sizing: border-box;
+      border-top-right-radius: 24px;
+      border-bottom-right-radius: 24px;
+      transform: translateY(250px);
+      position: relative;
+      .handle {
+        width: 64px;
+        position: absolute;
+        left: 30px;
+        bottom: 28px;
+        cursor: pointer;
+        .handle-ball {
+          width: 34px;
+          height: 34px;
+          background-color: #ff6169;
+          border-radius: 50%;
+          border: 15px solid #2e2a27;
+          transform: translateY(2px);
+        }
+        .handle-bar {
+          width: 16px;
+          height: 106px;
+          margin: 0 auto;
+          background-color: #2e2a27;
+          transform: translateY(1px);
+        }
+        .handle-shaft {
+          width: 56px;
+          height: 48px;
+          border: 15px solid #2e2a27;
+          border-left: none;
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+          background-color: #c8d0e3;
+          box-sizing: border-box;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  
+  .shake {
+    animation: shake 0.1s infinite;
+  }
+  
+  @keyframes shake {
+    25% {
+      left: 49.7%;
+    }
+    50% {
+      top: 49.7%;
+    }
+    75% {
+      left: 50%;
+    }
+    100% {
+      top: 50%;
+    }
+   }

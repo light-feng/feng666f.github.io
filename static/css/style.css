@@ -1,0 +1,216 @@
+a {text-decoration:none;color:#fff;}
+h1 {font-size:8em;}
+body {background-color: rgb(255,174,31);color:#fff;}
+
+.center {text-align:center;}
+.facts h2, .facts h1{color:#fff;text-align:center;font-family:'Josefin Sans';}
+
+ .facts p {text-align:center;}
+ 
+ .mg-btm {margin-bottom:75px;}
+
+.tiger {height:570px;}
+
+.columns img, .column img {
+    height: auto;
+    max-width: 100%;
+}
+
+/*tiger animation*/
+ svg#tiger {margin-top:0px;
+  width:100%;
+  max-height: 95%;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 456);
+  margin: auto;
+}
+
+svg path {
+    fill-opacity: 0;
+  stroke-width: 1;
+  stroke-dasharray: 3319;
+  stroke-dashoffset: 3319;
+  animation-name: draw;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+svg path.t1 {
+  fill: #C16B46 !important;
+  stroke: #C16B46;
+}
+
+svg path.t2 {
+  fill: #60410F !important;
+  stroke: #60410F;
+}
+
+svg path.t3 {
+  fill: #63561E !important;
+  stroke: #60410F;
+}
+
+svg path.t4 {
+  fill: #544C4C !important;
+  stroke: #544C4C;
+}
+
+svg path.t5 {
+  fill: #E09003 !important;
+  stroke: #E09003;
+}
+
+svg path.t6 {
+  fill: #FFAE1F !important;
+  stroke: #FFAE1F;
+}
+
+svg path.t7 {
+  fill: #EFC075 !important;
+  stroke: #EFC075;
+}
+
+svg path.t8 {
+  fill: #F7DC8F !important;
+  stroke: #F7DC8F;
+}
+
+svg path.t9 {
+  fill: #FEFFF3 !important;
+  stroke: #FEFFF3;
+}
+
+svg path.t10 {
+  fill: #D3C8C2 !important;
+  stroke: #D3C8C2;
+}
+
+svg path.t11 {
+  fill: #8C7C70 !important;
+  stroke: #8C7C70;
+}
+
+svg path.t12 {
+  fill: #B5AC6D !important;
+  stroke: #B5AC6D;
+}
+
+svg path.t13 {
+  fill: #777FA0 !important;
+  stroke: #777FA0;
+}
+
+svg path.t14 {
+  fill: #AFA49F !important;
+  stroke: #AFA49F;
+}
+
+svg path.t15 {
+  fill: #FF8D43 !important;
+  stroke: #FF8D43;
+}
+
+svg path.t16 {
+  fill: #C9C0AD !important;
+  stroke: #C9C0AD;
+}
+
+svg path.t17 {
+  fill: #C69849 !important;
+  stroke: #C69849;
+}
+
+svg path.t18 {
+  fill: #E2AFA3 !important;
+  stroke: #E2AFA3;
+}
+
+
+svg path.t19 {
+  fill: #FFA748 !important;
+  stroke: #FFA748;
+}
+
+svg path.t20 {
+  fill: #F9B26B !important;
+  stroke: #F9B26B;
+}
+
+svg path.t21 {
+  fill: #C07E48 !important;
+  stroke: #C07E48;
+}
+
+
+svg path.t22 {
+  fill: #937057 !important;
+  stroke: #937057;
+}
+
+svg path.t23 {
+  fill: #E8E9EB !important;
+  stroke: #E8E9EB;
+}
+
+svg path.t24 {
+  fill: #FEF8CB !important;
+  stroke: #FEF8CB;
+}
+
+svg path.t25 {
+  fill: #FFD385 !important;
+  stroke: #FFD385;
+}
+
+svg path.t26 {
+  fill: #D69385 !important;
+  stroke: #D69385;
+}
+
+svg path.t27 {
+  fill: #C98777 !important;
+  stroke: #C98777;
+}
+
+svg path.t28 {
+  fill: #EAD4B5 !important;
+  stroke: #EAD4B5;
+}
+
+svg path.t29 {
+  fill: #EADDCE !important;
+  stroke: #EADDCE;
+}
+
+svg path.t30 {
+  fill: #C98777 !important;
+  stroke: #C98777;
+}
+svg path.t31 {
+  fill: #48302C !important;
+  stroke: #48302C;
+}
+
+svg path.t32 {
+  fill: #D1C76D !important;
+  stroke: #D1C76D;
+}
+
+svg path.t33 {
+  fill: #84701E !important;
+  stroke: #84701E;
+}
+svg path.t34 {
+  fill: #564602 !important;
+  stroke: #564602;
+}
+
+@keyframes draw {
+  to {
+      fill-opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
