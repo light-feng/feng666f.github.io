@@ -40,8 +40,7 @@ function print() {
 }
 
 function open() {
-    const box1 = document.getElementById("box1-content");
-    box1.classList.remove("display-none");
+
 }
 
 // startTranslateYHeight 列表的初始化时translateY的距离
