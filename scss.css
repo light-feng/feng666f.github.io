@@ -9,8 +9,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    opacity: 0.5;
-    /* size: 100%; */
+    opacity: 0.6;
+    size: 40%;
 }
 
 .machine .machine-body {
