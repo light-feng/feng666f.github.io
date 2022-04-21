@@ -1,5 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <title>TigerTiger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="scss.css" />
     <link href="static/css/css.css" rel="stylesheet" type="text/css">
     <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
@@ -9,25 +14,29 @@
 
 </head>
 
-<script type="text/javascript">
-    alert("声明\n本项目仅限学习研究\n未经允许,请勿转发\n本项目未对现实任何人、事进行评价\n若用户恶意利用本项目,责任由用户自行承担，且作者有权关闭项目")
-</script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+    body {
+        transform: scale(0.7) translate(100px, 200px);
+    }
+</style>
 
-<body background="bg 1.jpg" style=" background-repeat:no-repeat ;background-size:100% 100%;
-background-attachment: fixed;">
-    <style type="text/css">
-        body {
-            transform: scale(0.45) translate(100px, 200px);
-        }
-    </style>
 
-    <body>
-        <!-- 背景加载 -->
-        <div class="container mg-btm" onclick="open()">
-            <div class="row">
-                <div class="twelve columns tiger">
-                    <svg xmlns="0" id="tiger" viewbox="0 0 700 1080">
+<body>
+
+    <div class="container facts">
+        <div class="row">
+            <div class="twelve columns">
+
+                <h1>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="twelve columns tiger">
+            <svg xmlns="http://www.w3.org/2000/svg" id="tiger" viewbox="0 0 800 570">
    
     
    <path class="t1" fill="#C16B46" d="M400,451.89l-14.637-3.506l-0.768-12.006l-25.244-21.732l7.666-6.281l21,12.56H400V451.89z M400,451.89
@@ -269,47 +278,49 @@ background-attachment: fixed;">
 	C480.496,252.536,478.457,250.165,475.939,250.165z"></path>
 </svg>
 
-                </div>
-            </div>
         </div>
-
-        <script src='static/js/jquery-1.8.3.min.js'></script>
-        <script src='static/js/jquery.color-2.1.0.js'></script>
-        <script src="static/js/script.js"></script>
-
-    </body>
+    </div>
 
     <body>
-        <!-- 老虎机 -->
+        <div class="container facts mg-btm">
 
-        <div class="machine">
-            <div class="machine-body">
-                <div class="rotary-table">
-                    <div class="screen">
-                        <ul class="images"></ul>
+            <div class="machine">
+                <div class="machine-body">
+                    <div class="rotary-table">
+                        <div class="screen">
+                            <ul class="images"></ul>
+                        </div>
+                        <div class="screen">
+                            <ul class="images"></ul>
+                        </div>
+                        <div class="screen">
+                            <ul class="images"></ul>
+                        </div>
+                        <div class="screen">
+                            <ul class="images"></ul>
+                        </div>
                     </div>
-                    <div class="screen">
-                        <ul class="images"></ul>
-                    </div>
-                    <div class="screen">
-                        <ul class="images"></ul>
-                    </div>
-                    <div class="screen">
-                        <ul class="images"></ul>
+                    <div class="machine-logo">
+                        <img src="2.png">
                     </div>
                 </div>
-                <div class="machine-logo">
-                    <img src="2.png">
-                </div>
-            </div>
-            <div class="base">
-                <div class="handle" onclick="start(initImagesArr.length)">
-                    <div class="handle-ball"></div>
-                    <div class="handle-bar"></div>
-                    <div class="handle-shaft"></div>
+                <div class="base">
+                    <div class="handle" onclick="start(initImagesArr.length)">
+                        <div class="handle-ball"></div>
+                        <div class="handle-bar"></div>
+                        <div class="handle-shaft"></div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <script type="text/javascript" src="javaS.js"></script>
     </body>
+
+    <script src='static/js/jquery-1.8.3.min.js'></script>
+    <script src='static/js/jquery.color-2.1.0.js'></script>
+    <script src="static/js/script.js"></script>
+    <script type="text/javascript" src="javaS.js"></script>
+
+</body>
+
+</html>
