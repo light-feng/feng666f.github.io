@@ -10,7 +10,7 @@
     display: -ms-flexbox;
     display: flex;
     opacity: 0.6;
-    size: 40%;
+    /* size: 40%; */
 }
 
 .machine .machine-body {
