@@ -1,29 +1,24 @@
 /*
-
 Licence :
-
 Attribution-NonCommercial-NoDerivs 
 CC BY-NC-ND
-
 This license is the most restrictive of our six main licenses, 
 only allowing others to download your works and share them with 
 others as long as they credit you, but they can鈥檛 change them 
 in any way or use them commercially.
-
 https://creativecommons.org/licenses/by-nc-nd/4.0/
-
 ///////// 
 this cat is used in an other commercial project, a mobile app called :
 "Babel, the cat who would be king"
 http://babeltheking.com/
-
 I did this app with the epic agency team (epic.net)
 Do not use the cat (combination of the shapes, colors, 
 proportions of the cat) with no permission.
 For more info, please contact me at karim@epic.net
 Thanks!
-
 */
+
+// 灯火阑珊
 
 
 Cat = function(){
